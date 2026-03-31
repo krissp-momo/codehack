@@ -1,0 +1,131 @@
+Team Name : Coders
+Problem Statement Number : 6 ᵗʰ
+Domain: MCP Integrations & Agentic AI
+Team Lead : Aayushi Pathak
+Tic Tech Toe’26
+
+Description of Idea
+The project proposes an AI-powered Agentic MCP Gateway that acts as an
+intelligent middle layer between users and multiple third party APIs. Using the Model
+Context Protocol (MCP), the agent can dynamically understand user intent and
+orchestrate API calls across different platforms.
+Problem
+Currently:
+-APIs are fragmented and siloed
+-Developers must manually integrate
+each API
+-No unified system to coordinate
+multiple APIs intelligently
+-Users cannot easily perform multi-
+step tasks across platforms.
+Solution:
+The Agent:
+-Interprets user requests (via NLP)
+-Breaks them into subtasks
+-Automatically selects & connects
+relevant APIs
+-Executes workflows without manual
+coding for each integration
+Objective & Prototype
+Objectives of the Solution
+Primary Objectives:
+ Build an autonomous AI agent
+using MCP
+ Enable multi-API orchestration
+ Reduce developer effort in API
+integrations
+ Provide real-time intelligent
+decision-making
+Secondary Objectives:
+ Improve scalability of API usage
+ Create a plug-and-play API
+ecosystem
+ Support natural language
+interaction
+User Input (Text/Voice)
+NLP Engine (Intent Detection)
+MCP Agent Core (Decision + Planning)
+API Orchestrator Layer
+Third-party APIs (Payments, Maps,
+Messaging, etc.)
+Response Aggregator
+User Output
+Prototype Flowchart ↓
+ ↓
+ ↓
+ ↓
+ ↓
+ ↓
+Feasibility
+Low Cost & Financial Feasibility
+Real-Time Tracking via Token & Cost
+Dashboard: It provides administrators real
+time tracking of LLM API token usage and
+application costs.
+Pre-Execution Cost:It can analyze incoming
+prompts before sending them to LLM to
+predict cost required by the LLM.
+Automated Budget Control: It can control
+incoming queries based on cost predictions.
+Optimized Enterprise Resource Allocation: It
+can guarantee cost predictability and
+efficiency without compromising on security
+and performance.Technically Feasible:
+-MCP is designed for context-aware AI systems
+-APIs are widely available with documentation
+LLMs already capable of:
+-Task planning
+-Tool usage
+Decision-making
+1.Required Tools:
+-Python (FastAPI)
+-LLM APIs
+-JSON-based MCP schema
+-API testing tools (Postman)
+2.Development Scope:
+-MVP can be built in 2–4 weeks
+-Scalable to enterprise-level system
+Feasibility
+Low Cost & Financial Feasibility
+Real-Time Tracking via Token & Cost Dashboard: It provides administrators real time tracking of
+LLM API token usage and application costs.
+Pre-Execution Cost:It can analyze incoming prompts before sending them to LLM to predict
+cost required by the LLM.
+Automated Budget Control: It can control incoming queries based on cost predictions.
+Optimized Enterprise Resource Allocation: It can guarantee cost predictability and efficiency
+without compromising on security and performance.
+  Technically Feasible:
+MCP is designed for context-aware AI
+systems
+APIs are widely available with
+documentation
+LLMs already capable of:
+Task planning and Tool usage
+  Decision-making
+Required Tools:
+Python (FastAPI),LLM APIs,JSON-
+based,MCP schema,API testing tools 
+Development Scope:
+MVP can be built in 2–4 weeks
+Scalable to enterprise-level system
+Uniqueness
+Voice-Driven Workflow Generation:Utilize the Web Speech API to
+describe workflows using spoken audio, directly converting natural
+language into LLM-based automation.
+Zero-Code Migration (Dynamic API Switcher):Seamless switching
+between cloud providers/services without lock-in or code changes.
+Tier Fault Tolerance:  Intelligent, context-sensitive fault tolerance instead
+of generic retry loops.
+For Data & DevOps:Outbox buffering guarantees zero data loss during
+outages with eventual consistency.
+For Communications:Real-time backup API switching for high availability
+in synchronous operations.
+Real-Time Streaming DAG Execution:Low-latency, progressive results
+for complex multi-step AI workflows to support interactive experiences
+Team Member Details
+Member Name Role Degree Semester
+A a y u s h i  P a t h a k B a c k e n d  D e v e l o p e r B .  T e c h 4
+K r i s h n a  P a t e l W o r k f l o w
+D e c o m p o s i t i o n / A I
+L o g i cB .  T e c h 4
+S u p r e e t i  P a l F r o n t e n d B .  T e c h 4

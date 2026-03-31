@@ -10,6 +10,7 @@ from api.otter    import router as otter_router
 from api.sheets   import router as sheets_router
 from api.calendar import router as calendar_router
 from api.costs    import router as costs_router
+from api.agent    import router as agent_router
 
 
 @asynccontextmanager
@@ -38,6 +39,7 @@ app.include_router(otter_router)
 app.include_router(sheets_router)
 app.include_router(calendar_router)
 app.include_router(costs_router)
+app.include_router(agent_router)
 
 
 @app.get("/health")
